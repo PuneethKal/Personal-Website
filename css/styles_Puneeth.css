@@ -1,0 +1,32 @@
+.projects{
+    
+}
+.projects section{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.projects video{
+    border-radius: 20px;
+    width: 320;
+    background-color: black;
+    display: inline-block;
+    
+}
+
+.projects p{
+    padding: auto 30px;
+    width: 300px;
+}
+
+.projects a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+.projects a:hover{
+    color: lightblue;
+}
