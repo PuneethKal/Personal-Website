@@ -7,7 +7,7 @@
 }
 
 
-.projects video{
+.projects video, img{
     border-radius: 20px;
     width: 320;
     display: inline-block;    
@@ -36,4 +36,8 @@
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 0;
+}
+
+footer{
+    margin-top: 100px;
 }
