@@ -27,3 +27,4 @@ function fadeOut(){
 
 var video = document.getElementById("2xspeed");
 video.playbackRate = 2.0;
+//
