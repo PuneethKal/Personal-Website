@@ -1,12 +1,12 @@
 // Repeat Fading Text
-var text = ["Computer Engineer", "Passionate"];
+var text = ["Computer Engineer", "Passionate", "Hardworking", "Critical Thinker"];
 var counter = 0;
 var elem = document.getElementById("masthead-changeText");
 var opacity = 1;  // Initial opacity
 var timer = setInterval(fadeOut , 100);
 
 function change() {
-    elem.innerHTML = text[counter];
+    elem.innerHTML = " [ "+text[counter] + " ] ";
     counter++;
     
     if (counter >= text.length) {
@@ -17,7 +17,7 @@ function change() {
 //Set Fade out
 function fadeOut(){
     if (opacity <= 0.1) {
-        opacity = 1;
+        opacity = 2;
         change();
     }
     elem.style.opacity = opacity;
